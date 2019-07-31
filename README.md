@@ -1,12 +1,12 @@
 ### Design Patterns
-#### creational Patterns
+#### Creational Patterns
 - Abstract Factory
 - Builder
 - Factory Method
 - Object Pool
 - Prototype
 - Singleton
-#### structural Patterns
+#### Structural Patterns
 - Adapter
 - Bridge
 - Composite
@@ -15,7 +15,7 @@
 - Flyweight
 - Private Class Data
 - Proxy
-#### behavioral Patterns
+#### Behavioral Patterns
 - Chain of Responsibility
 - Command
 - Interpreter
@@ -29,7 +29,7 @@
 - Template Method
 - Visitor
 
-###Source
+#### Source
 - https://sourcemaking.com/design_patterns
 - http://www.pratikprogramci.com/urun/design-patterns/
 - (Head First Design Patterns) https://g.co/kgs/GqgrQC
