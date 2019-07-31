@@ -1,0 +1,15 @@
+package behavioral.observer.example_1;
+
+/**
+ * State bilgisinin hex karışılığını ele alır.
+ */
+public class HexObserver extends Observer {
+  public HexObserver(Subject subject) {
+    this.subject = subject;
+    this.subject.add(this);
+  }
+
+  public void update() {
+    System.out.print(" " + Integer.toHexString(subject.getState()));
+  }
+}
