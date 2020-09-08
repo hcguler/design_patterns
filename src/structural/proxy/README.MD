@@ -23,6 +23,7 @@ Proxy design pattern 4 farklı şekilde kullnılabilir.
 - Protocol bazında implemente edilebilir.
 
 ## Ne zaman kullanılır
--Oluşturulması zaman alıcı ve sistem kaynaklarını zorlayan nesnelere Proxy olmak için virtual Proxy oluşturulur.
--Bir nesneyi ve metodlarını dışarıdan erişmlere karşı korumak için Protection Proxy kullanılır.
--Başka bir sunucuda bulunan servislere erişimi kullanıcı için transparen hale getirmek için remote Proxy kullanılır.
+
+- Oluşturulması zaman alıcı ve sistem kaynaklarını zorlayan nesnelere Proxy olmak için virtual Proxy oluşturulur.
+- Bir nesneyi ve metodlarını dışarıdan erişmlere karşı korumak için Protection Proxy kullanılır.
+- Başka bir sunucuda bulunan servislere erişimi kullanıcı için transparen hale getirmek için remote Proxy kullanılır.
