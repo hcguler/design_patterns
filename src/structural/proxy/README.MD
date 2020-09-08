@@ -14,10 +14,11 @@ Proxy design pattern 4 farklı şekilde kullnılabilir.
 - Bir nesnenin başka nesneler tarafından kontrolsüz kullanımını engellemek için kullanılır.
 - Nesnenin sahip olduğu fonksiyonlardan erişim istenmeyenler Proxy aracılığı ile engellenerek nesnenin erişimi kısıtlandırılmış olur.
 ## Dynamic Proxy
--
--
--
--
+- Runtime'da mevcut nesneleri reflection ile gezerek yeni Proxy nesneler oluşturup var olan nesneleri korunmasını sağlayabiliriz. Bu işlem runtime'da olduğu için dynamic Proxy olarak isimlendirilir.
+- Proxy nesnesi java tarafından otomatik oluşturulur. İhtiyacımız olan koruma ve iş mantığını oluşturmak için ikinci bir sınıf oluşturmak gerekiyor. Java da dynamic Proxy için InvocationHandler sınıfının implemente eden bir sınıf oluşturmalıyız.
+- InvocationHandler sınıfı Proxy nesnesinin isteklerini karşılamaktır.
+- İstek Proxy -> InvocationHandler -> Asıl nesne olarak akış gösterir.
+- InvocationHandler invoke(function, args) ile korunan nesnenin istenen metodu istenen parametrelerle çağrım yapılabilir.
 ## Remote Proxy
 - Uzak sunucu üzerinde hizmet veren bir servisin Proxy olarak sunulmasıdır. Proxy uzak sunucudaki hizmetlerin hapsini onun yerine geçerek veribilir.
 - Protocol bazında implemente edilebilir.
