@@ -1,0 +1,9 @@
+
+### Amaç 
+
+- Bir yöntemin birden farklı implementasyonu var ise bunu konfiguratif olarak seçecek şekilde yapılan tasarım desenidir.
+
+### Hatırlatıcı Örnekler
+
+- Bir java sınıfının serialize edilerek saklanması veya direk .java olarak saklanması.
+
