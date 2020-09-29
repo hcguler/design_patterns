@@ -1,10 +1,10 @@
 ### Amaç 
 
-- Varolan bir s?n?f?n hiyerar?isini veya yap?s?n? de?i?tirmeden, o nesneden olu?turulacak nesnelere yeni özellik katmak için kullan?l?r.
-- Bir nesneye bir özellik ekleyece?imiz için özellik eklenmesi istenen nesneyi hasA ili?kisi ile ba?ka bir nesneye gömerek yeni özellikler verilmesini sa?l?yoruz.
+- Varolan bir sınıfın hiyerarşisini veya yapısını değiştirmeden, o nesneden oluşturulacak nesnelere yeni özellik katmak için kullanılır.
+- Bir nesneye bir özellik ekleyeceğimiz için özellik eklenmesi istenen nesneyi hasA ilişkisi ile başka bir nesneye gömerek yeni özellikler verilmesini sağlıyoruz.
 
 
-### Hat?rlat?c? Örnekler
+### Hatırlatıcı Örnekler
 
 - Aynaya çerçeve ekleme
 - TextField için border, scroll ekleme
